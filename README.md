@@ -84,17 +84,6 @@ curl https://craigmbrown.com/api/audit/audit-20260405-004858-f31d9003
 curl https://craigmbrown.com/api/audit/health
 ```
 
-## Pricing
-
-| Tier | Price | What You Get |
-|------|-------|-------------|
-| Free | $0 | 10 audits/day, quick scope, JSON + HTML report |
-| Per-Audit | $5 | Full scope, all 10 ASI categories, detailed recommendations |
-| Continuous | $99/mo | Daily automated audits, trend tracking, alerts |
-| Enterprise | $499/mo | Compliance reports (NIST AI RMF, ISO 42001), SLA, dedicated support |
-
-Payment via [x402 HTTP protocol](https://github.com/coinbase/x402) with Fedimint ecash.
-
 ## Blog Posts
 
 - [Security Auditing a 94-Agent Fleet: Before & After MASSAT](blog/security-auditing-94-agent-fleet.md) - How we went from 4.3 to 4.0 risk score across 30 hardened agents
