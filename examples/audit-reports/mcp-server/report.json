@@ -1,0 +1,23 @@
+{
+  "audit_id": "audit-20260405-example-mcp-server",
+  "target": "Context Oracle MCP Server (Tool Server)",
+  "timestamp": "2026-04-05T00:49:30Z",
+  "scope": "quick",
+  "risk_score": 4.5,
+  "risk_level": "medium",
+  "categories_assessed": ["ASI01", "ASI02", "ASI03", "ASI04", "ASI05", "ASI06", "ASI07", "ASI08", "ASI09", "ASI10"],
+  "findings_summary": {"critical": 0, "high": 0, "medium": 6, "low": 4, "total": 10},
+  "findings": [
+    {"category": "ASI01", "severity": "medium", "title": "MCP server exposes all tools to any connected client", "recommendation": "Implement per-client tool capability negotiation"},
+    {"category": "ASI02", "severity": "medium", "title": "File read tool allows arbitrary path access", "recommendation": "Restrict file operations to configured base directories"},
+    {"category": "ASI03", "severity": "medium", "title": "MCP stdio transport has no authentication layer", "recommendation": "Add token-based auth or mTLS for MCP connections"},
+    {"category": "ASI05", "severity": "medium", "title": "Tool execution runs in server process without isolation", "recommendation": "Execute tool calls in sandboxed subprocess with resource limits"},
+    {"category": "ASI06", "severity": "medium", "title": "Server runs with full user permissions", "recommendation": "Drop privileges and run with minimal filesystem access"},
+    {"category": "ASI09", "severity": "medium", "title": "UV dependencies not hash-locked", "recommendation": "Add hash verification to uv.lock entries"},
+    {"category": "ASI04", "severity": "low", "title": "Context cache writable by any connected agent", "recommendation": "Add write authorization checks on context mutations"},
+    {"category": "ASI07", "severity": "low", "title": "No client identity verification on connection", "recommendation": "Require client certificate or passport for MCP connection"},
+    {"category": "ASI08", "severity": "low", "title": "No audit log for tool invocations", "recommendation": "Log all tool calls with client ID, timestamp, and parameters"},
+    {"category": "ASI10", "severity": "low", "title": "No concurrent request limits", "recommendation": "Add connection pooling and per-client rate limits"}
+  ],
+  "duration_seconds": 3.2
+}

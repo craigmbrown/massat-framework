@@ -1,0 +1,23 @@
+{
+  "audit_id": "audit-20260405-example-blindoracle",
+  "target": "BlindOracle Marketplace (25 DeFi Agents)",
+  "timestamp": "2026-04-05T00:49:20Z",
+  "scope": "quick",
+  "risk_score": 4.3,
+  "risk_level": "medium",
+  "categories_assessed": ["ASI01", "ASI02", "ASI03", "ASI04", "ASI05", "ASI06", "ASI07", "ASI08", "ASI09", "ASI10"],
+  "findings_summary": {"critical": 0, "high": 0, "medium": 6, "low": 4, "total": 10},
+  "findings": [
+    {"category": "ASI01", "severity": "medium", "title": "Market agents can access wallet functions without scope limits", "recommendation": "Restrict wallet operations to designated treasury agent only"},
+    {"category": "ASI02", "severity": "medium", "title": "RPC calls constructed from unvalidated user input", "recommendation": "Validate all RPC parameters against schema before submission"},
+    {"category": "ASI03", "severity": "medium", "title": "Cross-agent oracle data requests not authenticated", "recommendation": "Sign all oracle data requests with agent passport key"},
+    {"category": "ASI06", "severity": "medium", "title": "Private keys accessible to non-signing agents", "recommendation": "Isolate key material to dedicated signing service"},
+    {"category": "ASI07", "severity": "medium", "title": "Partial ERC-8004 passport coverage (20/25 agents)", "recommendation": "Complete passport issuance for remaining 5 agents"},
+    {"category": "ASI09", "severity": "medium", "title": "Smart contract dependencies reference unpinned versions", "recommendation": "Pin all Solidity imports and npm packages with lockfile"},
+    {"category": "ASI04", "severity": "low", "title": "Price feed memory can be written by any marketplace agent", "recommendation": "Restrict price feed writes to verified oracle agents only"},
+    {"category": "ASI05", "severity": "low", "title": "Simulation agents share execution environment with live agents", "recommendation": "Run simulations in isolated sandbox with read-only market data"},
+    {"category": "ASI08", "severity": "low", "title": "Trades above $10K threshold lack human approval", "recommendation": "Add multi-sig or human approval for high-value transactions"},
+    {"category": "ASI10", "severity": "low", "title": "No gas limit monitoring per agent", "recommendation": "Implement per-agent gas budgets with alert thresholds"}
+  ],
+  "duration_seconds": 3.1
+}

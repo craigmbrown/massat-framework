@@ -1,0 +1,23 @@
+{
+  "audit_id": "audit-20260405-example-whatsapp",
+  "target": "WhatsApp-Manager-Agent (6 Communication Agents)",
+  "timestamp": "2026-04-05T00:49:16Z",
+  "scope": "quick",
+  "risk_score": 4.3,
+  "risk_level": "medium",
+  "categories_assessed": ["ASI01", "ASI02", "ASI03", "ASI04", "ASI05", "ASI06", "ASI07", "ASI08", "ASI09", "ASI10"],
+  "findings_summary": {"critical": 0, "high": 0, "medium": 6, "low": 4, "total": 10},
+  "findings": [
+    {"category": "ASI01", "severity": "medium", "title": "Notification agent can send to any recipient without allowlist", "recommendation": "Implement recipient allowlist per notification channel"},
+    {"category": "ASI02", "severity": "medium", "title": "Message templates accept unvalidated user input", "recommendation": "Sanitize all template variables before rendering"},
+    {"category": "ASI03", "severity": "medium", "title": "Inter-agent message routing uses unencrypted local transport", "recommendation": "Add TLS or HMAC signing for agent-to-agent messages"},
+    {"category": "ASI06", "severity": "medium", "title": "WhatsApp API token shared across all 6 agents", "recommendation": "Issue per-agent tokens with minimal required scopes"},
+    {"category": "ASI07", "severity": "medium", "title": "No agent identity verification on incoming message handlers", "recommendation": "Verify sender passport before processing agent-initiated messages"},
+    {"category": "ASI09", "severity": "medium", "title": "Twilio/WhatsApp SDK versions not pinned", "recommendation": "Pin all messaging SDK dependencies with hash verification"},
+    {"category": "ASI04", "severity": "low", "title": "Message history stored without access controls", "recommendation": "Add per-agent read permissions on message archives"},
+    {"category": "ASI05", "severity": "low", "title": "No sandbox for message template rendering", "recommendation": "Render templates in restricted environment without network access"},
+    {"category": "ASI08", "severity": "low", "title": "Bulk message sends lack human approval", "recommendation": "Require approval for sends exceeding 10 recipients"},
+    {"category": "ASI10", "severity": "low", "title": "No rate limiting on outbound messages per agent", "recommendation": "Implement per-agent send rate limits matching platform quotas"}
+  ],
+  "duration_seconds": 2.4
+}

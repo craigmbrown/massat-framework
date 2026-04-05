@@ -1,0 +1,2692 @@
+{
+  "audit_id": "audit-20260405-004858-f31d9003",
+  "target": "/path/to/project/TheBaby_Agents",
+  "timestamp": "2026-04-05T00:49:01.464102+00:00",
+  "scope": "quick",
+  "categories_assessed": [
+    "ASI01",
+    "ASI02",
+    "ASI03",
+    "ASI04",
+    "ASI05",
+    "ASI06",
+    "ASI07",
+    "ASI08",
+    "ASI09",
+    "ASI10"
+  ],
+  "inventory": {
+    "agents": [
+      {
+        "name": "enterprise_analyzer_agent",
+        "path": "agents/enterprise_analyzer_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "email_monitor_agent",
+        "path": "agents/email_monitor_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "response_generator_agent",
+        "path": "agents/response_generator_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "calendar_manager_agent",
+        "path": "agents/calendar_manager_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "email_processor_agent",
+        "path": "agents/email_processor_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "get-pip",
+        "path": "agents/get-pip.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "base_agent",
+        "path": "agents/base_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "bitcoin_report_crew",
+        "path": "agents/bitcoin_report_crew.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "agent_system",
+        "path": "agent_system.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "sfa_FasttoG_agent",
+        "path": "sfa_FasttoG_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "sfa_gmail_cal_agent",
+        "path": "sfa_gmail_cal_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "ceo_summary_agent",
+        "path": "ceo_summary_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "workflow_automation_agent",
+        "path": "workflow_automation_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "code_generation_agent",
+        "path": "code_generation_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "orchestration_agent",
+        "path": "orchestration_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "sfa_graphrag_agent",
+        "path": "sfa_graphrag_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "notion_integration_agent",
+        "path": "notion_integration_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "decision_workflow_agent",
+        "path": "decision_workflow_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "sfa_claude45_context_agent",
+        "path": "sfa_claude45_context_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "sfa_Voice_Lifelog_cli_agent",
+        "path": "sfa_Voice_Lifelog_cli_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "notion_sync_agent",
+        "path": "notion_sync_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "sfa_zoom_calendar_sync_agent",
+        "path": "sfa_zoom_calendar_sync_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "sfa_transcript_analyzer_agent",
+        "path": "sfa_transcript_analyzer_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "elevenlabs_manager_agent",
+        "path": "elevenlabs_manager_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "base_agent",
+        "path": "base_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "board_oversight_agent",
+        "path": "board_oversight_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "integration_agent",
+        "path": "integration_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "orchestrator_agent",
+        "path": "email_calendar_di_system/orchestrator_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      },
+      {
+        "name": "sfa_analytics_gmail_agent",
+        "path": "motia_analytics_gmail_workflow/sfa_analytics_gmail_agent.py",
+        "item_type": "agent",
+        "details": {
+          "extension": ".py",
+          "format": "python_sfa"
+        }
+      }
+    ],
+    "tools": [],
+    "mcp_servers": [],
+    "services": [
+      {
+        "name": "immediate-tb-processor",
+        "path": "/etc/systemd/system/immediate-tb-processor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "enhanced-monitoring",
+        "path": "/etc/systemd/system/enhanced-monitoring.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "unified-monitoring",
+        "path": "/etc/systemd/system/unified-monitoring.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "tb-email-approval-poller",
+        "path": "/etc/systemd/system/tb-email-approval-poller.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "monitoring-orchestrator",
+        "path": "/etc/systemd/system/monitoring-orchestrator.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "agent-collective-scheduler",
+        "path": "/etc/systemd/system/agent-collective-scheduler.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "lifelog@",
+        "path": "/etc/systemd/system/lifelog@.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "intelligent-monitoring",
+        "path": "/etc/systemd/system/intelligent-monitoring.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "agent-marketplace",
+        "path": "/etc/systemd/system/agent-marketplace.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "approval-mma-bridge",
+        "path": "/etc/systemd/system/approval-mma-bridge.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "sshd",
+        "path": "/etc/systemd/system/sshd.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "blindoracle-hub",
+        "path": "/etc/systemd/system/blindoracle-hub.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "cc-notify-weekly",
+        "path": "/etc/systemd/system/cc-notify-weekly.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "tb-knowledge-sync",
+        "path": "/etc/systemd/system/tb-knowledge-sync.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "openclaw-orchestrator",
+        "path": "/etc/systemd/system/openclaw-orchestrator.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "limitless-chat-processor",
+        "path": "/etc/systemd/system/limitless-chat-processor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "cc-monitor",
+        "path": "/etc/systemd/system/cc-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "openclaw_monitor",
+        "path": "/etc/systemd/system/openclaw_monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "monitoring-orchestrator-enhanced",
+        "path": "/etc/systemd/system/monitoring-orchestrator-enhanced.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "daily-insights-research-pipeline",
+        "path": "/etc/systemd/system/daily-insights-research-pipeline.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "strategic-platform-orchestrator-monitor",
+        "path": "/etc/systemd/system/strategic-platform-orchestrator-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "tb-pipeline-v2",
+        "path": "/etc/systemd/system/tb-pipeline-v2.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "blindoracle-x402",
+        "path": "/etc/systemd/system/blindoracle-x402.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "claude-memory-monitor",
+        "path": "/etc/systemd/system/claude-memory-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "adw-scheduler",
+        "path": "/etc/systemd/system/adw-scheduler.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "orchestrator-api",
+        "path": "/etc/systemd/system/orchestrator-api.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "daily-service-maintenance",
+        "path": "/etc/systemd/system/daily-service-maintenance.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "blindoracle-anti-persuasion",
+        "path": "/etc/systemd/system/blindoracle-anti-persuasion.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "unified-status-monitor",
+        "path": "/etc/systemd/system/unified-status-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "youtube-likes-realtime",
+        "path": "/etc/systemd/system/youtube-likes-realtime.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "chainlink-telegram-bot",
+        "path": "/etc/systemd/system/chainlink-telegram-bot.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "tb-command-daemon",
+        "path": "/etc/systemd/system/tb-command-daemon.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "enhanced-auto-recovery-monitor",
+        "path": "/etc/systemd/system/enhanced-auto-recovery-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "lightweight-optimized-monitor",
+        "path": "/etc/systemd/system/lightweight-optimized-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "onboarding-api",
+        "path": "/etc/systemd/system/onboarding-api.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "tb-zte-executor",
+        "path": "/etc/systemd/system/tb-zte-executor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "openclaw-monitor",
+        "path": "/etc/systemd/system/openclaw-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "agent-collective-communication",
+        "path": "/etc/systemd/system/agent-collective-communication.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "dbus-org.freedesktop.timesync1",
+        "path": "/etc/systemd/system/dbus-org.freedesktop.timesync1.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "lulu-enhanced-monitoring",
+        "path": "/etc/systemd/system/lulu-enhanced-monitoring.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "agent-monitor",
+        "path": "/etc/systemd/system/agent-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "observability-platform",
+        "path": "/etc/systemd/system/observability-platform.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "blindoracle-customer-alert",
+        "path": "/etc/systemd/system/blindoracle-customer-alert.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "github-notification-monitor",
+        "path": "/etc/systemd/system/github-notification-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "notification-health-monitor",
+        "path": "/etc/systemd/system/notification-health-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "blindoracle-telegram-bot",
+        "path": "/etc/systemd/system/blindoracle-telegram-bot.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "tb-workflow",
+        "path": "/etc/systemd/system/tb-workflow.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "whatsapp-chat",
+        "path": "/etc/systemd/system/whatsapp-chat.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "apos",
+        "path": "/etc/systemd/system/apos.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "planning-hub-daemon",
+        "path": "/etc/systemd/system/planning-hub-daemon.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "tac-adw-webhook",
+        "path": "/etc/systemd/system/tac-adw-webhook.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "discord-marketplace",
+        "path": "/etc/systemd/system/discord-marketplace.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "enhanced-debate-agent",
+        "path": "/etc/systemd/system/enhanced-debate-agent.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "fedimint-monitor",
+        "path": "/etc/systemd/system/fedimint-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "chainlink-job-api",
+        "path": "/etc/systemd/system/chainlink-job-api.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "autonomous-ops",
+        "path": "/etc/systemd/system/autonomous-ops.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "notion-monitor",
+        "path": "/etc/systemd/system/notion-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "autonomous-blp-improvement",
+        "path": "/etc/systemd/system/autonomous-blp-improvement.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "zoom-enhanced-monitoring",
+        "path": "/etc/systemd/system/zoom-enhanced-monitoring.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "enhanced-etac-auto-healing",
+        "path": "/etc/systemd/system/enhanced-etac-auto-healing.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "redis",
+        "path": "/etc/systemd/system/redis.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "blindoracle-a2a",
+        "path": "/etc/systemd/system/blindoracle-a2a.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "chainlink-monitor",
+        "path": "/etc/systemd/system/chainlink-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "etac-monitor",
+        "path": "/etc/systemd/system/etac-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "dbus-org.freedesktop.resolve1",
+        "path": "/etc/systemd/system/dbus-org.freedesktop.resolve1.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "enhanced-decision-workflow",
+        "path": "/etc/systemd/system/enhanced-decision-workflow.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "tb-ops-agent",
+        "path": "/etc/systemd/system/tb-ops-agent.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "blindoracle-defi-api",
+        "path": "/etc/systemd/system/blindoracle-defi-api.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "job-server",
+        "path": "/etc/systemd/system/job-server.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "cc-notify-daily",
+        "path": "/etc/systemd/system/cc-notify-daily.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "cloudflare-tunnel-monitor",
+        "path": "/etc/systemd/system/cloudflare-tunnel-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "dbus-org.freedesktop.network1",
+        "path": "/etc/systemd/system/dbus-org.freedesktop.network1.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "real-time-activity-notifier",
+        "path": "/etc/systemd/system/real-time-activity-notifier.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "memory-alert",
+        "path": "/etc/systemd/system/memory-alert.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "tb-master-orchestrator",
+        "path": "/etc/systemd/system/tb-master-orchestrator.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "etac-mcp-monitor",
+        "path": "/etc/systemd/system/etac-mcp-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "lifelog-self-healing",
+        "path": "/etc/systemd/system/lifelog-self-healing.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "team-tracker",
+        "path": "/etc/systemd/system/team-tracker.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "limitless-production-monitor",
+        "path": "/etc/systemd/system/limitless-production-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "v5-queue-runner",
+        "path": "/etc/systemd/system/v5-queue-runner.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "lightweight-monitor",
+        "path": "/etc/systemd/system/lightweight-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "nostr-agent",
+        "path": "/etc/systemd/system/nostr-agent.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "babyproject-research-v3",
+        "path": "/etc/systemd/system/babyproject-research-v3.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "email-golden-agents",
+        "path": "/etc/systemd/system/email-golden-agents.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "blindoracle-audit-trail",
+        "path": "/etc/systemd/system/blindoracle-audit-trail.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "lifelog-archiver",
+        "path": "/etc/systemd/system/lifelog-archiver.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "agent-metric-mcp",
+        "path": "/etc/systemd/system/agent-metric-mcp.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "realtime-star-monitor",
+        "path": "/etc/systemd/system/realtime-star-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "discord-marketplace-bot",
+        "path": "/etc/systemd/system/discord-marketplace-bot.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "onboarding-backend",
+        "path": "/etc/systemd/system/onboarding-backend.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "limitless-chats-archiver-full",
+        "path": "/etc/systemd/system/limitless-chats-archiver-full.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "strategic-platform-orchestrator",
+        "path": "/etc/systemd/system/strategic-platform-orchestrator.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "ditd-execution-daemon",
+        "path": "/etc/systemd/system/ditd-execution-daemon.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "syslog",
+        "path": "/etc/systemd/system/syslog.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "fedimint-agent",
+        "path": "/etc/systemd/system/fedimint-agent.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "qa-response-receiver",
+        "path": "/etc/systemd/system/qa-response-receiver.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "whatsapp-bridge",
+        "path": "/etc/systemd/system/whatsapp-bridge.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "agent-swarm",
+        "path": "/etc/systemd/system/agent-swarm.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "llm-router",
+        "path": "/etc/systemd/system/llm-router.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "mcp-daemon",
+        "path": "/etc/systemd/system/mcp-daemon.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "blindoracle-camel-gateway",
+        "path": "/etc/systemd/system/blindoracle-camel-gateway.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "daily-digest",
+        "path": "/etc/systemd/system/daily-digest.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "unified-lifelog",
+        "path": "/etc/systemd/system/unified-lifelog.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "limitless-chats-archiver",
+        "path": "/etc/systemd/system/limitless-chats-archiver.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "lifelog-research",
+        "path": "/etc/systemd/system/lifelog-research.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "etac-automation",
+        "path": "/etc/systemd/system/etac-automation.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "tier2-service-monitor",
+        "path": "/etc/systemd/system/tier2-service-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "workflow-scheduler",
+        "path": "/etc/systemd/system/workflow-scheduler.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "hustle-gpt",
+        "path": "/etc/systemd/system/hustle-gpt.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "tb-scout",
+        "path": "/etc/systemd/system/tb-scout.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "blindoracle-nostr",
+        "path": "/etc/systemd/system/blindoracle-nostr.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "unified-notification-health-monitor",
+        "path": "/etc/systemd/system/unified-notification-health-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "batched-monitoring",
+        "path": "/etc/systemd/system/batched-monitoring.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "thebaby-mcp-marketplace",
+        "path": "/etc/systemd/system/thebaby-mcp-marketplace.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "etac-autonomous",
+        "path": "/etc/systemd/system/etac-autonomous.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "etac-production-monitor",
+        "path": "/etc/systemd/system/etac-production-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "newsletter-api",
+        "path": "/etc/systemd/system/newsletter-api.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "babyproject-research",
+        "path": "/etc/systemd/system/babyproject-research.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "lifelog-v4@",
+        "path": "/etc/systemd/system/lifelog-v4@.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "lead-capture-api",
+        "path": "/etc/systemd/system/lead-capture-api.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      },
+      {
+        "name": "tier1-critical-monitor",
+        "path": "/etc/systemd/system/tier1-critical-monitor.service",
+        "item_type": "service",
+        "details": {
+          "type": "systemd"
+        }
+      }
+    ],
+    "credential_refs": [
+      {
+        "name": "GOOGLE_API_KEY",
+        "path": ".env",
+        "item_type": "credential_ref",
+        "details": {
+          "line": 1,
+          "source": "env_file",
+          "key_only": true
+        }
+      },
+      {
+        "name": "OPENAI_API_KEY",
+        "path": ".env",
+        "item_type": "credential_ref",
+        "details": {
+          "line": 2,
+          "source": "env_file",
+          "key_only": true
+        }
+      },
+      {
+        "name": "ANTHROPIC_API_KEY",
+        "path": ".env",
+        "item_type": "credential_ref",
+        "details": {
+          "line": 5,
+          "source": "env_file",
+          "key_only": true
+        }
+      },
+      {
+        "name": "TAVILY_API_KEY",
+        "path": ".env",
+        "item_type": "credential_ref",
+        "details": {
+          "line": 6,
+          "source": "env_file",
+          "key_only": true
+        }
+      },
+      {
+        "name": "ELEVENLABS_API_KEY",
+        "path": ".env",
+        "item_type": "credential_ref",
+        "details": {
+          "line": 7,
+          "source": "env_file",
+          "key_only": true
+        }
+      },
+      {
+        "name": "ELEVEN_API_KEY",
+        "path": ".env",
+        "item_type": "credential_ref",
+        "details": {
+          "line": 8,
+          "source": "env_file",
+          "key_only": true
+        }
+      },
+      {
+        "name": "AGENTOPS_API_KEY",
+        "path": ".env",
+        "item_type": "credential_ref",
+        "details": {
+          "line": 10,
+          "source": "env_file",
+          "key_only": true
+        }
+      },
+      {
+        "name": "GEMINI_API_KEY",
+        "path": ".env",
+        "item_type": "credential_ref",
+        "details": {
+          "line": 11,
+          "source": "env_file",
+          "key_only": true
+        }
+      },
+      {
+        "name": "NOTION_INTERNAL_INTEGRATION_SECRET",
+        "path": ".env",
+        "item_type": "credential_ref",
+        "details": {
+          "line": 12,
+          "source": "env_file",
+          "key_only": true
+        }
+      },
+      {
+        "name": "NOTION_API_KEY",
+        "path": ".env",
+        "item_type": "credential_ref",
+        "details": {
+          "line": 13,
+          "source": "env_file",
+          "key_only": true
+        }
+      },
+      {
+        "name": "XAI_API_KEY",
+        "path": ".env",
+        "item_type": "credential_ref",
+        "details": {
+          "line": 23,
+          "source": "env_file",
+          "key_only": true
+        }
+      },
+      {
+        "name": "GROQ_API_KEY",
+        "path": ".env",
+        "item_type": "credential_ref",
+        "details": {
+          "line": 26,
+          "source": "env_file",
+          "key_only": true
+        }
+      },
+      {
+        "name": "CDP_API_KEY_NAME",
+        "path": ".env",
+        "item_type": "credential_ref",
+        "details": {
+          "line": 33,
+          "source": "env_file",
+          "key_only": true
+        }
+      },
+      {
+        "name": "CDP_API_KEY_PRIVATE_KEY",
+        "path": ".env",
+        "item_type": "credential_ref",
+        "details": {
+          "line": 34,
+          "source": "env_file",
+          "key_only": true
+        }
+      },
+      {
+        "name": "CDP_API_KEY",
+        "path": ".env",
+        "item_type": "credential_ref",
+        "details": {
+          "line": 37,
+          "source": "env_file",
+          "key_only": true
+        }
+      },
+      {
+        "name": "CDP_API_SECRET",
+        "path": ".env",
+        "item_type": "credential_ref",
+        "details": {
+          "line": 38,
+          "source": "env_file",
+          "key_only": true
+        }
+      },
+      {
+        "name": "PAYPAL_CLIENT_SECRET",
+        "path": ".env",
+        "item_type": "credential_ref",
+        "details": {
+          "line": 46,
+          "source": "env_file",
+          "key_only": true
+        }
+      },
+      {
+        "name": "TELEGRAM_BOT_TOKEN",
+        "path": ".env",
+        "item_type": "credential_ref",
+        "details": {
+          "line": 51,
+          "source": "env_file",
+          "key_only": true
+        }
+      },
+      {
+        "name": "OPENAI_API_KEY",
+        "path": "sfa_FasttoG_agent.py",
+        "item_type": "credential_ref",
+        "details": {
+          "source": "python_code",
+          "key_only": true
+        }
+      },
+      {
+        "name": "ANTHROPIC_API_KEY",
+        "path": "sfa_FasttoG_agent.py",
+        "item_type": "credential_ref",
+        "details": {
+          "source": "python_code",
+          "key_only": true
+        }
+      },
+      {
+        "name": "AGENTOPS_API_KEY",
+        "path": "ceo_summary_agent.py",
+        "item_type": "credential_ref",
+        "details": {
+          "source": "python_code",
+          "key_only": true
+        }
+      },
+      {
+        "name": "TAVILY_API_KEY",
+        "path": "sfa_firecrawl_tavily_search_cli_agent_v3.py",
+        "item_type": "credential_ref",
+        "details": {
+          "source": "python_code",
+          "key_only": true
+        }
+      },
+      {
+        "name": "NOTION_API_KEY",
+        "path": "sfa_youtube_transcript_webhook.py",
+        "item_type": "credential_ref",
+        "details": {
+          "source": "python_code",
+          "key_only": true
+        }
+      },
+      {
+        "name": "LIMITLESS_API_KEY",
+        "path": "sfa_Voice_Lifelog_cli_agent.py",
+        "item_type": "credential_ref",
+        "details": {
+          "source": "python_code",
+          "key_only": true
+        }
+      },
+      {
+        "name": "ELEVENLABS_API_KEY",
+        "path": "sfa_Voice_Lifelog_cli_agent.py",
+        "item_type": "credential_ref",
+        "details": {
+          "source": "python_code",
+          "key_only": true
+        }
+      },
+      {
+        "name": "NOTION_TOKEN",
+        "path": "notion_setup_script.py",
+        "item_type": "credential_ref",
+        "details": {
+          "source": "python_code",
+          "key_only": true
+        }
+      },
+      {
+        "name": "ZOOM_CLIENT_SECRET",
+        "path": "sfa_zoom_calendar_sync_agent.py",
+        "item_type": "credential_ref",
+        "details": {
+          "source": "python_code",
+          "key_only": true
+        }
+      }
+    ],
+    "data_stores": [
+      {
+        "name": "pre_compact.json",
+        "path": "logs/pre_compact.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 2066
+        }
+      },
+      {
+        "name": "user_prompt_submit.json",
+        "path": "logs/user_prompt_submit.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 16717
+        }
+      },
+      {
+        "name": "post_tool_use.json",
+        "path": "logs/50fbe89d-4c2a-4f52-b275-e971efb2ab24/post_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 1442
+        }
+      },
+      {
+        "name": "pre_tool_use.json",
+        "path": "logs/50fbe89d-4c2a-4f52-b275-e971efb2ab24/pre_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 5173
+        }
+      },
+      {
+        "name": "post_tool_use.json",
+        "path": "logs/deaed429-6c55-416d-8fe1-6c0d9bbd75f3/post_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 3103
+        }
+      },
+      {
+        "name": "pre_tool_use.json",
+        "path": "logs/deaed429-6c55-416d-8fe1-6c0d9bbd75f3/pre_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 2902
+        }
+      },
+      {
+        "name": "user_prompt_submit.json",
+        "path": "logs/7daf8da7-7a3d-432e-93f7-a5dfe0733c6d/user_prompt_submit.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 1407
+        }
+      },
+      {
+        "name": "notification.json",
+        "path": "logs/7daf8da7-7a3d-432e-93f7-a5dfe0733c6d/notification.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 1025
+        }
+      },
+      {
+        "name": "post_tool_use.json",
+        "path": "logs/a1c52c71-37f2-40e3-94d2-c9f485375dbd/post_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 25995
+        }
+      },
+      {
+        "name": "pre_tool_use.json",
+        "path": "logs/5155d652-55b1-4f18-a61f-20cb126d4229/pre_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 968
+        }
+      },
+      {
+        "name": "stop.json",
+        "path": "logs/ac458e76-1c95-48ef-b5ee-84264a9892ae/stop.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 716
+        }
+      },
+      {
+        "name": "notification.json",
+        "path": "logs/ac458e76-1c95-48ef-b5ee-84264a9892ae/notification.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 1961
+        }
+      },
+      {
+        "name": "post_tool_use.json",
+        "path": "logs/ac458e76-1c95-48ef-b5ee-84264a9892ae/post_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 356281
+        }
+      },
+      {
+        "name": "subagent_stop.json",
+        "path": "logs/ac458e76-1c95-48ef-b5ee-84264a9892ae/subagent_stop.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 2462
+        }
+      },
+      {
+        "name": "pre_tool_use.json",
+        "path": "logs/ac458e76-1c95-48ef-b5ee-84264a9892ae/pre_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 154762
+        }
+      },
+      {
+        "name": "session_start.json",
+        "path": "logs/ac458e76-1c95-48ef-b5ee-84264a9892ae/session_start.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 947
+        }
+      },
+      {
+        "name": "post_tool_use.json",
+        "path": "logs/96d12222-112c-49d7-96ee-c88c5c16e709/post_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 1942
+        }
+      },
+      {
+        "name": "pre_tool_use.json",
+        "path": "logs/96d12222-112c-49d7-96ee-c88c5c16e709/pre_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 1293
+        }
+      },
+      {
+        "name": "tool_usage_metrics.json",
+        "path": "logs/562a149b-a3a8-4426-b489-c4528368f532/tool_usage_metrics.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 215
+        }
+      },
+      {
+        "name": "post_tool_use.json",
+        "path": "logs/562a149b-a3a8-4426-b489-c4528368f532/post_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 23054
+        }
+      },
+      {
+        "name": "pre_tool_use.json",
+        "path": "logs/562a149b-a3a8-4426-b489-c4528368f532/pre_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 3092
+        }
+      },
+      {
+        "name": "stop.json",
+        "path": "logs/610d6937-ac2b-4a4d-9188-20138f9600fc/stop.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 716
+        }
+      },
+      {
+        "name": "notification.json",
+        "path": "logs/610d6937-ac2b-4a4d-9188-20138f9600fc/notification.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 764
+        }
+      },
+      {
+        "name": "post_tool_use.json",
+        "path": "logs/610d6937-ac2b-4a4d-9188-20138f9600fc/post_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 544262
+        }
+      },
+      {
+        "name": "pre_tool_use.json",
+        "path": "logs/610d6937-ac2b-4a4d-9188-20138f9600fc/pre_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 76068
+        }
+      },
+      {
+        "name": "session_start.json",
+        "path": "logs/610d6937-ac2b-4a4d-9188-20138f9600fc/session_start.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 632
+        }
+      },
+      {
+        "name": "user_prompt_submit.json",
+        "path": "logs/1f3993b9-8d72-4044-aa13-b6c81548969b/user_prompt_submit.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 1431
+        }
+      },
+      {
+        "name": "notification.json",
+        "path": "logs/1f3993b9-8d72-4044-aa13-b6c81548969b/notification.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 343
+        }
+      },
+      {
+        "name": "stop.json",
+        "path": "logs/bd2b605e-4c3a-4639-b9ce-fd5d4897b3ca/stop.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 1430
+        }
+      },
+      {
+        "name": "notification.json",
+        "path": "logs/bd2b605e-4c3a-4639-b9ce-fd5d4897b3ca/notification.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 1145
+        }
+      },
+      {
+        "name": "post_tool_use.json",
+        "path": "logs/bd2b605e-4c3a-4639-b9ce-fd5d4897b3ca/post_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 101849
+        }
+      },
+      {
+        "name": "pre_tool_use.json",
+        "path": "logs/bd2b605e-4c3a-4639-b9ce-fd5d4897b3ca/pre_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 43845
+        }
+      },
+      {
+        "name": "stop.json",
+        "path": "logs/6bc68246-19a0-420c-83fe-d88b75d23e08/stop.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 359
+        }
+      },
+      {
+        "name": "notification.json",
+        "path": "logs/6bc68246-19a0-420c-83fe-d88b75d23e08/notification.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 383
+        }
+      },
+      {
+        "name": "post_tool_use.json",
+        "path": "logs/6bc68246-19a0-420c-83fe-d88b75d23e08/post_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 50855
+        }
+      },
+      {
+        "name": "pre_tool_use.json",
+        "path": "logs/6bc68246-19a0-420c-83fe-d88b75d23e08/pre_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 4689
+        }
+      },
+      {
+        "name": "post_tool_use.json",
+        "path": "logs/4a44c48e-a492-4886-9656-e0dccd9dc478/post_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 96225
+        }
+      },
+      {
+        "name": "pre_tool_use.json",
+        "path": "logs/4a44c48e-a492-4886-9656-e0dccd9dc478/pre_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 11909
+        }
+      },
+      {
+        "name": "session_start.json",
+        "path": "logs/4a44c48e-a492-4886-9656-e0dccd9dc478/session_start.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 317
+        }
+      },
+      {
+        "name": "notification.json",
+        "path": "logs/05bb50d7-599c-4aaf-a52f-33cc9ee39587/notification.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 343
+        }
+      },
+      {
+        "name": "user_prompt_submit.json",
+        "path": "logs/791af4ca-b0b6-447f-8561-44397232a068/user_prompt_submit.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 422
+        }
+      },
+      {
+        "name": "pre_tool_use.json",
+        "path": "logs/10da96fb-b9cb-408f-98f8-db597c14af3b/pre_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 766
+        }
+      },
+      {
+        "name": "tool_usage_metrics.json",
+        "path": "logs/55aa7b4a-49e1-4001-b1d7-f33070282495/tool_usage_metrics.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 127
+        }
+      },
+      {
+        "name": "stop.json",
+        "path": "logs/55aa7b4a-49e1-4001-b1d7-f33070282495/stop.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 1803
+        }
+      },
+      {
+        "name": "blp_session_summary.json",
+        "path": "logs/55aa7b4a-49e1-4001-b1d7-f33070282495/blp_session_summary.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 307
+        }
+      },
+      {
+        "name": "notification.json",
+        "path": "logs/55aa7b4a-49e1-4001-b1d7-f33070282495/notification.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 488
+        }
+      },
+      {
+        "name": "post_tool_use.json",
+        "path": "logs/55aa7b4a-49e1-4001-b1d7-f33070282495/post_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 1479
+        }
+      },
+      {
+        "name": "pre_tool_use.json",
+        "path": "logs/55aa7b4a-49e1-4001-b1d7-f33070282495/pre_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 927
+        }
+      },
+      {
+        "name": "pre_tool_use.json",
+        "path": "logs/f505b0c1-48fa-4e2d-bfed-b9904144f138/pre_tool_use.json",
+        "item_type": "data_store",
+        "details": {
+          "type": "json_state",
+          "size_bytes": 755
+        }
+      }
+    ],
+    "hooks": [
+      {
+        "name": "notification.json",
+        "path": ".claude/hooks/logs/6b0c322a-056e-43d0-ba17-4efe80cd573f/notification.json",
+        "item_type": "hook",
+        "details": {
+          "extension": ".json"
+        }
+      },
+      {
+        "name": "notification.json",
+        "path": ".claude/hooks/logs/a6cb0af0-2b2d-4e92-897b-aa62e8d58ecd/notification.json",
+        "item_type": "hook",
+        "details": {
+          "extension": ".json"
+        }
+      },
+      {
+        "name": "user_prompt_submit.json",
+        "path": ".claude/hooks/logs/56800e50-806d-4a9a-838f-5899bd99f79b/user_prompt_submit.json",
+        "item_type": "hook",
+        "details": {
+          "extension": ".json"
+        }
+      },
+      {
+        "name": "notification.json",
+        "path": ".claude/hooks/logs/56800e50-806d-4a9a-838f-5899bd99f79b/notification.json",
+        "item_type": "hook",
+        "details": {
+          "extension": ".json"
+        }
+      },
+      {
+        "name": "subagent_stop.json",
+        "path": ".claude/hooks/logs/56800e50-806d-4a9a-838f-5899bd99f79b/subagent_stop.json",
+        "item_type": "hook",
+        "details": {
+          "extension": ".json"
+        }
+      },
+      {
+        "name": "session_start.json",
+        "path": ".claude/hooks/logs/56800e50-806d-4a9a-838f-5899bd99f79b/session_start.json",
+        "item_type": "hook",
+        "details": {
+          "extension": ".json"
+        }
+      },
+      {
+        "name": "notification.json",
+        "path": ".claude/hooks/logs/decd3f18-1a36-4779-8dc6-5a046ab8c998/notification.json",
+        "item_type": "hook",
+        "details": {
+          "extension": ".json"
+        }
+      },
+      {
+        "name": "notification.json",
+        "path": ".claude/hooks/logs/f48edce3-0ec0-42aa-9bf0-5e86c6b6b0e7/notification.json",
+        "item_type": "hook",
+        "details": {
+          "extension": ".json"
+        }
+      },
+      {
+        "name": "user_prompt_submit.json",
+        "path": ".claude/hooks/logs/7d2574c8-2c32-4972-b40f-67f5d4a74b30/user_prompt_submit.json",
+        "item_type": "hook",
+        "details": {
+          "extension": ".json"
+        }
+      },
+      {
+        "name": "notification.json",
+        "path": ".claude/hooks/logs/7d2574c8-2c32-4972-b40f-67f5d4a74b30/notification.json",
+        "item_type": "hook",
+        "details": {
+          "extension": ".json"
+        }
+      },
+      {
+        "name": "subagent_stop.json",
+        "path": ".claude/hooks/logs/7d2574c8-2c32-4972-b40f-67f5d4a74b30/subagent_stop.json",
+        "item_type": "hook",
+        "details": {
+          "extension": ".json"
+        }
+      },
+      {
+        "name": "session_start.json",
+        "path": ".claude/hooks/logs/7d2574c8-2c32-4972-b40f-67f5d4a74b30/session_start.json",
+        "item_type": "hook",
+        "details": {
+          "extension": ".json"
+        }
+      },
+      {
+        "name": "user_prompt_submit.json",
+        "path": ".claude/hooks/logs/245e98c1-1f69-472f-a6a3-2eeabbda37b2/user_prompt_submit.json",
+        "item_type": "hook",
+        "details": {
+          "extension": ".json"
+        }
+      },
+      {
+        "name": "notification.json",
+        "path": ".claude/hooks/logs/245e98c1-1f69-472f-a6a3-2eeabbda37b2/notification.json",
+        "item_type": "hook",
+        "details": {
+          "extension": ".json"
+        }
+      },
+      {
+        "name": "subagent_stop.json",
+        "path": ".claude/hooks/logs/245e98c1-1f69-472f-a6a3-2eeabbda37b2/subagent_stop.json",
+        "item_type": "hook",
+        "details": {
+          "extension": ".json"
+        }
+      },
+      {
+        "name": "session_start.json",
+        "path": ".claude/hooks/logs/245e98c1-1f69-472f-a6a3-2eeabbda37b2/session_start.json",
+        "item_type": "hook",
+        "details": {
+          "extension": ".json"
+        }
+      }
+    ],
+    "trust_boundaries": [],
+    "communication_channels": [
+      {
+        "name": "http:sfa_tinyurl_dashboard_integration",
+        "path": "sfa_tinyurl_dashboard_integration.py",
+        "item_type": "communication_channel",
+        "details": {
+          "type": "http_client"
+        }
+      },
+      {
+        "name": "http:add_all_operations_to_calendar",
+        "path": "add_all_operations_to_calendar.py",
+        "item_type": "communication_channel",
+        "details": {
+          "type": "http_client"
+        }
+      },
+      {
+        "name": "http:sfa_youtube_transcript_extractor",
+        "path": "sfa_youtube_transcript_extractor.py",
+        "item_type": "communication_channel",
+        "details": {
+          "type": "http_client"
+        }
+      },
+      {
+        "name": "http:sfa_zoom_calendar_sync_agent",
+        "path": "sfa_zoom_calendar_sync_agent.py",
+        "item_type": "communication_channel",
+        "details": {
+          "type": "http_client"
+        }
+      }
+    ],
+    "metrics": {
+      "total_agents": 29,
+      "total_tools": 0,
+      "total_mcp_servers": 0,
+      "total_services": 121,
+      "total_credential_refs": 27,
+      "total_data_stores": 49,
+      "total_hooks": 16,
+      "total_trust_boundaries": 0,
+      "total_communication_channels": 4,
+      "surface_area": 33
+    }
+  },
+  "findings": [
+    {
+      "category": "ASI01",
+      "name": "Agent Goal Hijacking",
+      "risk_score": 4.8,
+      "severity": "medium",
+      "likelihood": 3,
+      "impact": 4,
+      "controls_present": [
+        "Input validation/sanitization detected"
+      ],
+      "controls_missing": [
+        "No CaMel or prompt protection layers found",
+        "No hook-based input guards"
+      ],
+      "evidence": [
+        {
+          "file": "sfa_firecrawl_tavily_search_cli_agent_v3.py",
+          "line": 228,
+          "description": "Pattern match: def sanitize_filename(text: str) -> str:"
+        },
+        {
+          "file": "sfa_firecrawl_tavily_search_cli_agent_v3.py",
+          "line": 617,
+          "description": "Pattern match: safe_query = sanitize_filename(query)"
+        }
+      ],
+      "blast_radius": "high - affects all downstream agents if orchestrator is hijacked",
+      "remediation": [
+        {
+          "priority": 1,
+          "action": "Implement data/instruction separation in all agent prompts",
+          "effort": "medium",
+          "framework_refs": [
+            "OWASP-ASI01",
+            "NIST-MG-2.3"
+          ]
+        },
+        {
+          "priority": 2,
+          "action": "Add step-by-step alignment validation for multi-hop tasks",
+          "effort": "high",
+          "framework_refs": [
+            "OWASP-ASI01",
+            "MAESTRO-T1"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "ASI02",
+      "name": "Tool Misuse and Exploitation",
+      "risk_score": 4.8,
+      "severity": "medium",
+      "likelihood": 3,
+      "impact": 4,
+      "controls_present": [],
+      "controls_missing": [
+        "No explicit tool allowlists found",
+        "No tool parameter validation",
+        "Direct subprocess/exec usage detected without sandboxing"
+      ],
+      "evidence": [
+        {
+          "file": "sfa_di_agent_decision_intelligence_workflow.py",
+          "line": 896,
+          "description": "Pattern match: result = subprocess.run("
+        },
+        {
+          "file": "github_calendar_tracker.py",
+          "line": 162,
+          "description": "Pattern match: result = subprocess.run("
+        },
+        {
+          "file": "sfa_gmail_cal_agent.py",
+          "line": 614,
+          "description": "Pattern match: result = subprocess.run("
+        },
+        {
+          "file": "workflow_automation_agent.py",
+          "line": 584,
+          "description": "Pattern match: result = subprocess.run("
+        },
+        {
+          "file": "workflow_automation_agent.py",
+          "line": 716,
+          "description": "Pattern match: result = subprocess.run("
+        }
+      ],
+      "blast_radius": "high - tool misuse can read/write files, execute commands",
+      "remediation": [
+        {
+          "priority": 1,
+          "action": "Implement tool-level authorization with per-agent allowlists",
+          "effort": "medium",
+          "framework_refs": [
+            "OWASP-ASI02",
+            "NIST-MG-3.1"
+          ]
+        },
+        {
+          "priority": 2,
+          "action": "Add output validation for all tool results before consumption",
+          "effort": "medium",
+          "framework_refs": [
+            "OWASP-ASI02"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "ASI03",
+      "name": "Identity and Privilege Abuse",
+      "risk_score": 4.8,
+      "severity": "medium",
+      "likelihood": 3,
+      "impact": 4,
+      "controls_present": [
+        "Agent identity mechanisms detected",
+        "Role-based access control references found"
+      ],
+      "controls_missing": [],
+      "evidence": [
+        {
+          "file": "tb_database_resolver.py",
+          "line": 75,
+          "description": "Pattern match: \"agent_id\": self.agent_id,"
+        },
+        {
+          "file": "ceo_summary_agent.py",
+          "line": 57,
+          "description": "Pattern match: self.agent_id = f\"ceo_agent_{datetime.now().strftime('%Y%m%d_%H%M%S')}\""
+        },
+        {
+          "file": "ceo_summary_agent.py",
+          "line": 90,
+          "description": "Pattern match: logger.info(f\"CEO Summary Agent initialized: {self.agent_id}\")"
+        },
+        {
+          "file": "notion_setup_script.py",
+          "line": 539,
+          "description": "Pattern match: print(\"3. Check that your integration has the necessary permissions\")"
+        }
+      ],
+      "blast_radius": "high - privilege escalation affects entire agent hierarchy",
+      "remediation": [
+        {
+          "priority": 1,
+          "action": "Implement per-agent identity tokens with cryptographic verification",
+          "effort": "high",
+          "framework_refs": [
+            "OWASP-ASI03",
+            "ISO-42001-A.6"
+          ]
+        },
+        {
+          "priority": 2,
+          "action": "Enforce least-privilege tool access per agent role",
+          "effort": "medium",
+          "framework_refs": [
+            "OWASP-ASI03",
+            "NIST-GV-1.2"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "ASI04",
+      "name": "Agentic Supply Chain Vulnerabilities",
+      "risk_score": 3.6,
+      "severity": "low",
+      "likelihood": 3,
+      "impact": 3,
+      "controls_present": [
+        "Dependencies appear to use pinned versions"
+      ],
+      "controls_missing": [
+        "No dependency lockfiles found",
+        "No package signature or integrity verification"
+      ],
+      "evidence": [],
+      "blast_radius": "medium - compromised dependency affects all users",
+      "remediation": [
+        {
+          "priority": 1,
+          "action": "Pin all dependency versions with hash verification",
+          "effort": "low",
+          "framework_refs": [
+            "OWASP-ASI04",
+            "NIST-MP-4.1"
+          ]
+        },
+        {
+          "priority": 2,
+          "action": "Implement MCP server allowlist and version pinning",
+          "effort": "medium",
+          "framework_refs": [
+            "OWASP-ASI04"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "ASI05",
+      "name": "Unexpected Code Execution",
+      "risk_score": 6.0,
+      "severity": "medium",
+      "likelihood": 3,
+      "impact": 5,
+      "controls_present": [
+        "Sandboxing/containerization references found"
+      ],
+      "controls_missing": [
+        "subprocess with shell=True detected"
+      ],
+      "evidence": [
+        {
+          "file": "voice_to_claude_code.py",
+          "line": 299,
+          "description": "Pattern match: result_container = {\"text\": \"\", \"done\": False}"
+        },
+        {
+          "file": "voice_to_claude_code.py",
+          "line": 308,
+          "description": "Pattern match: result_container[\"text\"] = text"
+        },
+        {
+          "file": "voice_to_claude_code.py",
+          "line": 310,
+          "description": "Pattern match: result_container[\"done\"] = True"
+        },
+        {
+          "file": "sfa_di_agent_decision_intelligence_workflow.py",
+          "line": 897,
+          "description": "Pattern match: command, shell=True, capture_output=True, text=True, env=current_bash_env"
+        },
+        {
+          "file": "sfa_gmail_cal_agent.py",
+          "line": 615,
+          "description": "Pattern match: command, shell=True, capture_output=True, text=True, env=current_bash_env"
+        },
+        {
+          "file": "sfa_planner_agent_v1.py",
+          "line": 665,
+          "description": "Pattern match: command, shell=True, capture_output=True, text=True, env=current_bash_env"
+        },
+        {
+          "file": "(system-wide)",
+          "line": null,
+          "description": "Code generation capabilities detected in 26 files"
+        }
+      ],
+      "blast_radius": "critical - arbitrary code execution compromises entire system",
+      "remediation": [
+        {
+          "priority": 1,
+          "action": "Run all agent-generated code in sandboxed environments",
+          "effort": "high",
+          "framework_refs": [
+            "OWASP-ASI05",
+            "NIST-MG-3.2"
+          ]
+        },
+        {
+          "priority": 1,
+          "action": "Remove all eval()/exec() usage or replace with safe alternatives",
+          "effort": "medium",
+          "framework_refs": [
+            "OWASP-ASI05"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "ASI06",
+      "name": "Memory and Context Poisoning",
+      "risk_score": 4.8,
+      "severity": "medium",
+      "likelihood": 3,
+      "impact": 4,
+      "controls_present": [
+        "Memory management system detected",
+        "Session/tenant isolation detected"
+      ],
+      "controls_missing": [
+        "No memory content validation or sanitization"
+      ],
+      "evidence": [
+        {
+          "file": "sfa_whatsapp_conversation_starters.py",
+          "line": 342,
+          "description": "Pattern match: def get_conversation_history(self, phone: Optional[str] = None, limit: int = 50) -> Dict[str, Any]:"
+        },
+        {
+          "file": "sfa_whatsapp_conversation_starters.py",
+          "line": 399,
+          "description": "Pattern match: log_success(\"get_conversation_history\", result)"
+        },
+        {
+          "file": "sfa_whatsapp_conversation_starters.py",
+          "line": 403,
+          "description": "Pattern match: handle_exception(\"get_conversation_history\", e)"
+        },
+        {
+          "file": "(system-wide)",
+          "line": null,
+          "description": "49 persistent state files - potential poisoning vectors"
+        }
+      ],
+      "blast_radius": "high - poisoned memory affects all future decisions",
+      "remediation": [
+        {
+          "priority": 1,
+          "action": "Add content validation for all memory writes",
+          "effort": "medium",
+          "framework_refs": [
+            "OWASP-ASI06",
+            "NIST-MS-2.7"
+          ]
+        },
+        {
+          "priority": 2,
+          "action": "Implement cross-session memory isolation boundaries",
+          "effort": "high",
+          "framework_refs": [
+            "OWASP-ASI06"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "ASI07",
+      "name": "Insecure Inter-Agent Communication",
+      "risk_score": 3.6,
+      "severity": "low",
+      "likelihood": 3,
+      "impact": 3,
+      "controls_present": [
+        "Message authentication detected",
+        "Encryption references found"
+      ],
+      "controls_missing": [
+        "No structured message schema validation"
+      ],
+      "evidence": [
+        {
+          "file": "agents/get-pip.py",
+          "line": 11338,
+          "description": "Pattern match: zr`u67#u+GiV$uPuNb_mvIsBRr#FXb0>{QFh?6j@%m!n6+RI=6Dzrct2oQN?wKXGjoeYz-^HMACAX_C"
+        },
+        {
+          "file": "agents/get-pip.py",
+          "line": 11745,
+          "description": "Pattern match: VccQ^+>HMAc?|uE`&Eyz{t7KA9R2t>^z%v71DO0bP51$pMrh(uz@RAbiSm(fomGGp(Yic+Vl?`FQx%|"
+        },
+        {
+          "file": "(system-wide)",
+          "line": null,
+          "description": "4 inter-agent communication channels discovered"
+        }
+      ],
+      "blast_radius": "medium - compromised messages can redirect agent behavior",
+      "remediation": [
+        {
+          "priority": 1,
+          "action": "Implement message signing with per-agent keys",
+          "effort": "high",
+          "framework_refs": [
+            "OWASP-ASI07",
+            "NIST-MG-4.1"
+          ]
+        },
+        {
+          "priority": 2,
+          "action": "Add structured message schemas with validation",
+          "effort": "medium",
+          "framework_refs": [
+            "OWASP-ASI07"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "ASI08",
+      "name": "Cascading Failures",
+      "risk_score": 3.6,
+      "severity": "low",
+      "likelihood": 3,
+      "impact": 3,
+      "controls_present": [
+        "Retry/backoff/timeout mechanisms detected",
+        "Health monitoring detected"
+      ],
+      "controls_missing": [
+        "No graceful degradation strategy"
+      ],
+      "evidence": [
+        {
+          "file": "github_calendar_tracker.py",
+          "line": 166,
+          "description": "Pattern match: timeout=60"
+        },
+        {
+          "file": "github_calendar_tracker.py",
+          "line": 374,
+          "description": "Pattern match: timeout=30"
+        },
+        {
+          "file": "workflow_automation_agent.py",
+          "line": 68,
+          "description": "Pattern match: timeout_seconds: int = 300,"
+        },
+        {
+          "file": "(system-wide)",
+          "line": null,
+          "description": "121 external dependencies = high cascade risk"
+        }
+      ],
+      "blast_radius": "medium - single point failures can take down multiple agents",
+      "remediation": [
+        {
+          "priority": 1,
+          "action": "Implement circuit breakers for all external dependencies",
+          "effort": "medium",
+          "framework_refs": [
+            "OWASP-ASI08",
+            "NIST-MG-4.2"
+          ]
+        },
+        {
+          "priority": 2,
+          "action": "Add dependency health dashboards with automatic failover",
+          "effort": "high",
+          "framework_refs": [
+            "OWASP-ASI08"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "ASI09",
+      "name": "Human-Agent Trust Exploitation",
+      "risk_score": 3.2,
+      "severity": "low",
+      "likelihood": 2,
+      "impact": 4,
+      "controls_present": [
+        "Human-in-the-loop approval mechanisms detected",
+        "Confidence/uncertainty scoring detected",
+        "Audit trail logging detected"
+      ],
+      "controls_missing": [],
+      "evidence": [
+        {
+          "file": "decision_workflow_agent.py",
+          "line": 239,
+          "description": "Pattern match: \"stakeholder_approval_required\": True,"
+        },
+        {
+          "file": "email_calendar_di_system/orchestrator_agent.py",
+          "line": 67,
+          "description": "Pattern match: \"approval_required\": {"
+        },
+        {
+          "file": "motia_analytics_gmail_workflow/workflow_orchestrator.py",
+          "line": 568,
+          "description": "Pattern match: return {\"result\": route, \"approval_required\": requires_approval}"
+        }
+      ],
+      "blast_radius": "high - trusted agents can manipulate human decisions",
+      "remediation": [
+        {
+          "priority": 1,
+          "action": "Add confidence scoring to all agent outputs shown to humans",
+          "effort": "medium",
+          "framework_refs": [
+            "OWASP-ASI09",
+            "NIST-MS-2.5"
+          ]
+        },
+        {
+          "priority": 2,
+          "action": "Implement action audit trails with human review dashboard",
+          "effort": "medium",
+          "framework_refs": [
+            "OWASP-ASI09"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "ASI10",
+      "name": "Rogue Agents",
+      "risk_score": 4.0,
+      "severity": "medium",
+      "likelihood": 2,
+      "impact": 5,
+      "controls_present": [
+        "Agent monitoring/anomaly detection detected",
+        "Emergency shutdown mechanisms detected"
+      ],
+      "controls_missing": [
+        "No multi-agent validation for critical actions"
+      ],
+      "evidence": [
+        {
+          "file": "motia_analytics_gmail_workflow/email_analytics_engine.py",
+          "line": 565,
+          "description": "Pattern match: analysis_type=\"anomaly_detection\","
+        },
+        {
+          "file": "sfa_di_agent_decision_intelligence_workflow.py",
+          "line": 509,
+          "description": "Pattern match: <instruction>Handle initialization and shutdown procedures.</instruction>"
+        },
+        {
+          "file": "voice_to_claude_code.py",
+          "line": 527,
+          "description": "Pattern match: # Shutdown the recorder properly"
+        },
+        {
+          "file": "(system-wide)",
+          "line": null,
+          "description": "29 agents in system - rogue detection scope"
+        }
+      ],
+      "blast_radius": "critical - rogue agents can subvert the entire system",
+      "remediation": [
+        {
+          "priority": 1,
+          "action": "Implement behavioral monitoring with anomaly detection for all agents",
+          "effort": "high",
+          "framework_refs": [
+            "OWASP-ASI10",
+            "NIST-MG-4.3"
+          ]
+        },
+        {
+          "priority": 1,
+          "action": "Deploy kill switches with human-only activation for all agents",
+          "effort": "medium",
+          "framework_refs": [
+            "OWASP-ASI10",
+            "MAESTRO-T8"
+          ]
+        }
+      ]
+    }
+  ],
+  "compliance": [],
+  "simulations": [],
+  "overall_risk_score": 4.3,
+  "summary": "Audit of /path/to/project/TheBaby_Agents (quick scope): 10 categories assessed, 0 critical, 0 high risk findings. Overall risk score: 4.3/10.",
+  "duration_seconds": 2.8
+}
